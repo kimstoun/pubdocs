@@ -14,7 +14,7 @@
 
 ### 验证
 
-访问http://ipaddr:18000,若能打开网页，说明安装成功,ipaddr为linux主机的ip地址。
+访问http://ipaddr:18000, 若能打开网页，说明安装成功,ipaddr为linux主机的ip地址。
 
 可以通过成员管理添加单个成员和批量添加多个成员。
 
@@ -42,52 +42,3 @@ remote_working/
 
 检测update_workdir/EcsUpdate下的更新包，执行更新操作，并将执行结果输出到update_workdir/UpdateFeed目录，参考《前置系统远程管理方案》。
 
-
-
-
-
-
-
-
-
-
-
-
-<style type="text/css">
-    h1 { counter-reset: h2counter; }
-    h2 { counter-reset: h3counter; }
-    h3 { counter-reset: h4counter; }
-    h4 { counter-reset: h5counter; }
-    h5 { counter-reset: h6counter; }
-    h6 { }
-    h2:before {
-      counter-increment: h2counter;
-      content: counter(h2counter) ".\0000a0\0000a0";
-    }
-    h3:before {
-      counter-increment: h3counter;
-      content: counter(h2counter) "."
-                counter(h3counter) ".\0000a0\0000a0";
-    }
-    h4:before {
-      counter-increment: h4counter;
-      content: counter(h2counter) "."
-                counter(h3counter) "."
-                counter(h4counter) ".\0000a0\0000a0";
-    }
-    h5:before {
-      counter-increment: h5counter;
-      content: counter(h2counter) "."
-                counter(h3counter) "."
-                counter(h4counter) "."
-                counter(h5counter) ".\0000a0\0000a0";
-    }
-    h6:before {
-      counter-increment: h6counter;
-      content: counter(h2counter) "."
-                counter(h3counter) "."
-                counter(h4counter) "."
-                counter(h5counter) "."
-                counter(h6counter) ".\0000a0\0000a0";
-    }
-</style>
